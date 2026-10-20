@@ -1,6 +1,6 @@
-Heart Disease Prediction Using Machine Learning
+### Heart Disease Prediction Using Machine Learning ###
 
-Project Overview
+## Project Overview
 
 The Heart Disease Prediction Project uses Python and Machine Learning techniques to analyze health-related data and predict the presence of heart disease.
 
@@ -8,7 +8,7 @@ The project demonstrates how data preprocessing, exploratory data analysis, and 
 
 This project is developed for educational and learning purposes.
 
-Objectives
+# Objectives
 
 Analyze a heart disease dataset.
 
@@ -40,7 +40,9 @@ Jupyter Notebook
 
 Project Structure
 
-Heart-Disease-Prediction/
+# Heart-Disease-Prediction
+
+
 │
 ├── heartDiseasePrediction_ML.ipynb
 └── README.md
@@ -79,7 +81,7 @@ Confusion matrix
 
 Add the actual evaluation results after running your model.
 
-Installation and Usage
+# Installation and Usage
 
 1. Clone the repository
 
@@ -112,7 +114,7 @@ Open Heart_Disease_Prediction.ipynb and run the cells in order.
 
 If using a Python script, run the actual script included in your repository.
 
-🔮 Future Improvements
+Future Improvements
 
 Compare multiple classification algorithms.
 
@@ -124,16 +126,16 @@ Add a user-friendly web interface.
 
 Improve model interpretability.
 
-⚠️ Disclaimer
+# Disclaimer
 
 This project is intended for educational and research purposes only. Its predictions are not medical diagnoses and must not be used as a substitute for professional medical advice.
 
-👨‍💻 Author
+ # Author
 
-Your Name
+Suhail A Saifi
 
 GitHub: https://github.com/SuhailASaifi
 
-⭐ Acknowledgements
+# Acknowledgements
 
 Thanks to the dataset providers and the open-source Python community for their valuable resources.
