@@ -1,141 +1,112 @@
-### Heart Disease Prediction Using Machine Learning ###
+# 🫀 Heart Disease Prediction Using Machine Learning
 
-## Project Overview
+<p align="center">
+  A Machine Learning project built with Python to explore heart disease risk prediction using health-related data.
+</p>
 
-The Heart Disease Prediction Project uses Python and Machine Learning techniques to analyze health-related data and predict the presence of heart disease.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-8A2BE2?style=for-the-badge" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
+  <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" alt="In Development" />
+</p>
 
-The project demonstrates how data preprocessing, exploratory data analysis, and classification algorithms can be used to identify patterns in a heart disease dataset.
+## 📌 About the Project
 
-This project is developed for educational and learning purposes.
+The **Heart Disease Prediction Project** explores how machine learning techniques can analyze health-related data and predict the risk of coronary heart disease.
 
-# Objectives
+The project uses Python and a Jupyter Notebook to organize data exploration, preprocessing, model training, and performance evaluation.
 
-Analyze a heart disease dataset.
+## 🎯 Project Objectives
 
-Perform data cleaning and preprocessing.
+- Understand and analyze a health-related dataset.
+- Perform data cleaning and preprocessing.
+- Explore patterns and relationships in the data.
+- Train a machine learning classification model.
+- Evaluate model performance using appropriate metrics.
+- Visualize findings to better understand the results.
 
-Explore relationships between different health attributes.
+## 🛠️ Technologies Used
 
-Train a machine learning classification model.
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-Evaluate model performance using appropriate metrics.
+## 📂 Project Structure
 
-Generate predictions from input features.
-
-Technologies Used
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
-
-Project Structure
-
-# Heart-Disease-Prediction
-
-
+```text
+Heart-Disease-Prediction/
 │
-├── heartDiseasePrediction_ML.ipynb
+├── Heart_Disease_Prediction.ipynb
+├── framingham.csv
+├── requirements.txt
 └── README.md
+```
 
-Include only the files that are present in your repository.
+*Update this structure if your uploaded filenames are different.*
 
-Machine Learning Workflow
+## ⚙️ Getting Started
 
-Load the dataset.
+### 1. Clone the repository
 
-Explore and visualize the data.
-
-Handle missing values and preprocess features, where needed.
-
-Split the dataset into training and testing sets.
-
-Train the selected machine learning model.
-
-Evaluate the model using suitable performance metrics.
-
-Generate predictions on test or new input data.
-
-Model Evaluation
-
-The model can be evaluated using:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-Confusion matrix
-
-Add the actual evaluation results after running your model.
-
-# Installation and Usage
-
-1. Clone the repository
-
-git clone https://github.com/SuhailASaifi/heartDiseasePrediction_ML.git
+```bash
+git clone https://github.com/SuhailASaifi/Heart-Disease-Prediction.git
 cd Heart-Disease-Prediction
+```
 
-2. Create a virtual environment
+### 2. Install dependencies
 
-python -m venv venv
-
-Activate it on Windows:
-
-venv\Scripts\activate
-
-On macOS or Linux:
-
-source venv/bin/activate
-
-3. Install dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
-4. Run the project
+### 3. Open the notebook
 
-If using Jupyter Notebook:
-
+```bash
 jupyter notebook
+```
 
-Open Heart_Disease_Prediction.ipynb and run the cells in order.
+Open `Heart_Disease_Prediction.ipynb` and execute the cells in order. Ensure the dataset is available at the path expected by the notebook.
 
-If using a Python script, run the actual script included in your repository.
+Alternatively, open the notebook directly on GitHub to review the code and saved outputs.
 
-Future Improvements
+## 📊 Model Evaluation
 
-Compare multiple classification algorithms.
+The project can use the following metrics to evaluate its classification model:
 
-Improve data preprocessing and feature selection.
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+- Confusion matrix
 
-Tune model hyperparameters.
+Actual results should be added here after running and evaluating the model. No accuracy score is claimed until it has been measured.
 
-Add a user-friendly web interface.
+## 🔮 Future Improvements
 
-Improve model interpretability.
+- Compare multiple classification algorithms.
+- Improve preprocessing and feature engineering.
+- Tune model hyperparameters.
+- Add clear visualizations and model comparisons.
+- Develop an interactive web interface.
 
-# Disclaimer
+## ⚠️ Disclaimer
 
-This project is intended for educational and research purposes only. Its predictions are not medical diagnoses and must not be used as a substitute for professional medical advice.
+This project is intended for educational and research purposes only. Its predictions are experimental and are not medical diagnoses or a substitute for professional medical advice.
 
- # Author
+## 👨‍💻 Author
 
-Suhail A Saifi
+**Suhail ASaifi**
 
-GitHub: https://github.com/SuhailASaifi
+GitHub: [@SuhailASaifi](https://github.com/SuhailASaifi)
 
-# Acknowledgements
+Project Repository: [Heart-Disease-Prediction](https://github.com/SuhailASaifi/Heart-Disease-Prediction)
 
-Thanks to the dataset providers and the open-source Python community for their valuable resources.
+---
+
+⭐ If you find this project useful, consider giving the repository a star!
